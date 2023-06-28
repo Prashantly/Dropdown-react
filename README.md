@@ -1,70 +1,46 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Dropdown Component
 
-## Available Scripts
+This project implements a simple dropdown component using React. The dropdown component displays a button, and upon hovering over the button, it shows a list of options. When an option is clicked, the dropdown closes.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   
+   git clone <https://github.com/Prashantly/Dropdown-react.git>
 
-### `npm run build`
+2. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   cd dropdown-component
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Start the development server:
+   
+   npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Open your browser and visit http://localhost:3000 to see the app running.
+## Usage
 
-### `npm run eject`
+To use the dropdown component in your own project, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Copy the Dropdown.js file from the src/components directory into your project.
+2. Import the Dropdown component into your desired file:
+   
+   `import Dropdown from './path/to/Dropdown';`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Use the Dropdown component in your JSX code:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   `<Dropdown items={["Option 1", "Option 2", "Option 3"]} />`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Replace the items prop value with an array of options you want to display in the dropdown.
+## Preview
 
-## Learn More
+![dropdown](https://github.com/Prashantly/ToDo_application/assets/99544800/5a38b9f2-7d6e-45d7-96ce-c1a04efa388e)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The above image shows a preview of how the dropdown component looks when the button is hovered, and the dropdown list is displayed.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize the styles to match your desired design.
