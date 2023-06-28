@@ -1,18 +1,10 @@
-import List from "./List";
+import Dropdown from "./Dropdown";
 
 function App() {
+  const dropDownItems = ["Yes", "Probably"];
   return (
     <div className="container">
-      <div className="dropdown-item">
-        <h2 className="que">Should you use dropdown?</h2>
-        <button>
-          <p>Select</p>
-          <span>
-            <i class="fa-solid fa-angle-down"></i>
-          </span>
-        </button>
-        <List />
-      </div>
+      <Dropdown items={dropDownItems} />
     </div>
   );
 }

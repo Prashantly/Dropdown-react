@@ -7,13 +7,14 @@
 body {
   background-color: #7bd7e2;
   font-family: "Ysabeau SC", sans-serif;
+  position: relative;
 }
 
 .container {
-  display: flex;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  top: 40vh;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .que {
@@ -48,11 +49,11 @@ ul {
 .drop-list {
   background-color: #fff;
   width: 170px;
-  margin-top: 3px;
+  margin-top: 5px;
   border-radius: 5px;
 }
 
-.drop-list ul li {
+.drop-list li {
   padding: 10px 8px;
   cursor: pointer;
   font-size: 18px;
